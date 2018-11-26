@@ -93,10 +93,10 @@ def CE():
     grid(which='major', linestyle='-')
     grid(which='minor', linestyle=':')
     minorticks_on()
-    # ylabel(r'$K,\text{отн.ед.}$',fontsize=16)
-    # xlabel(r'$\nu, \text{Гц}$',fontsize=16)
+    ylabel(r'$K,\text{отн.ед.}$',fontsize=16)
+    xlabel(r'$\nu, \text{Гц}$',fontsize=16)
     legend()
-    # savefig(path.abspath('..'+'\\fig\\5_C_off.pdf'))
+    savefig(path.abspath('..'+'\\fig\\5_C_off.pdf'))
 
 
     figOn=figure('5.C_on')
@@ -116,10 +116,10 @@ def CE():
     grid(which='major', linestyle='-')
     grid(which='minor', linestyle=':')
     minorticks_on()
-    # ylabel(r'$K,\text{отн.ед.}$',fontsize=16)
-    # xlabel(r'$\nu, \text{Гц}$',fontsize=16)
+    ylabel(r'$K,\text{отн.ед.}$',fontsize=16)
+    xlabel(r'$\nu, \text{Гц}$',fontsize=16)
     legend()
-    # savefig(path.abspath('..'+'\\fig\\5_C_on.pdf'))
+    savefig(path.abspath('..'+'\\fig\\5_C_on.pdf'))
     show()
 
 def CK():
